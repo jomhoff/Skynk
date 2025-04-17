@@ -1,4 +1,4 @@
-# Synk - Rapid synteny plotting tool using Compleasm outputs
+# Synk - Rapid synteny plotting tool using [Compleasm](https://github.com/huangnengCSU/compleasm) outputs
 ![Synk logo](https://github.com/user-attachments/assets/e3af80d2-1236-4655-88d8-c4b27855fba0)
 
 ## Installation
@@ -30,7 +30,7 @@ Required inputs:
 ```
 --karyotype1       First species karyotype file (must have columns: Chr, Start, End, Species)
 --karyotype2       Second species karyotype file (same format as above)
---busco1           BUSCO full table from species 1
+--busco1           BUSCO full table from species 1 (full_table_BUSCO.tsv)
 --busco2           BUSCO full table from species 2
 --rep1             Replacement map for species 1 chromosome names (ie. chr1	1)
 --rep2             Replacement map for species 2 chromosome names
