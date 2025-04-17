@@ -1,8 +1,7 @@
-# Synk
+# Synk - Rapid synteny plotting tool using Compleasm outputs
 ![Synk logo](https://github.com/user-attachments/assets/e3af80d2-1236-4655-88d8-c4b27855fba0)
 
-## Rapid synteny plotting tool using Compleasm outputs** 
-### Installation
+## Installation
 Synk is a python script. Download it!
 ```
 ```
@@ -11,7 +10,7 @@ Dependencies:
   Matplotlib
   Rideogram
   
-### Use
+## Use
 
 USAGE EXAMPLE:
 ```
@@ -56,7 +55,7 @@ Output Files:
 - chromosome.png/.svg    : RIdeogram synteny plot (if --plot is used)
 ```
 
-### Result
+## Result
 <img width="1209" alt="pfas-tiliqua_synteny" src="https://github.com/user-attachments/assets/2d7e9f15-501e-4991-a400-17588c6a1cca" />
 This is the result (with labels edited slightly in illustrator)
 
