@@ -4,6 +4,8 @@
 ## Installation
 Synk is a python script. Download it!
 ```
+git clone https://github.com/jomhoff/Synk.git
+cd Synk
 ```
 Dependencies:
   Pandas
