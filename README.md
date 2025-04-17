@@ -1,5 +1,5 @@
 # Synk
-![ChatGPT Image Apr 17, 2025, 11_56_36 AM](https://github.com/user-attachments/assets/e3af80d2-1236-4655-88d8-c4b27855fba0)
+![Synk logo](https://github.com/user-attachments/assets/e3af80d2-1236-4655-88d8-c4b27855fba0)
 
 ## Rapid synteny plotting tool using Compleasm outputs** 
 ### Installation
@@ -55,6 +55,8 @@ Output Files:
 - dual_karyotype.txt     : Combined karyotype file with label and fill info
 - chromosome.png/.svg    : RIdeogram synteny plot (if --plot is used)
 ```
+
+### Result
 <img width="1209" alt="pfas-tiliqua_synteny" src="https://github.com/user-attachments/assets/2d7e9f15-501e-4991-a400-17588c6a1cca" />
 This is the result (with labels edited slightly in illustrator)
 
