@@ -12,7 +12,7 @@ Dependencies:
   
 ## Use
 
-USAGE EXAMPLE:
+Usage example:
 ```
 python skynk.py \
   --karyotype1 pfas_karyotype.txt \
@@ -26,7 +26,7 @@ python skynk.py \
   --plot
 ```
 
-REQUIRED INPUTS:
+Required inputs:
 ```
 --karyotype1       First species karyotype file (must have columns: Chr, Start, End, Species)
 --karyotype2       Second species karyotype file (same format as above)
@@ -36,7 +36,8 @@ REQUIRED INPUTS:
 --rep2             Replacement map for species 2 chromosome names
 --outdir           Directory for output files
 ```
-OPTIONAL:
+
+Optional inputs:
 ```
 --cmap             Colormap for chromosome gradient (default: plasma)
 --plot             Include this flag to generate an ideogram PNG/SVG with RIdeogram
