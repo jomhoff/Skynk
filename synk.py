@@ -34,7 +34,7 @@ OPTIONAL:
 --cmap             Colormap for chromosome gradient (default: plasma)
 --plot             Include this flag to generate an ideogram PNG/SVG with RIdeogram
 --rscript_path     Path to output R script (default: plot_ideogram.R)
---karyo_size       Label text size (default: 5)
+--karyo_size       Label text size (default: 12)
 --karyo_color      Label text color (default: black)
 
 Output Files:
@@ -375,7 +375,7 @@ def main():
     parser.add_argument("--cmap", default="plasma")
     parser.add_argument("--plot", action="store_true")
     parser.add_argument("--rscript_path", default="plot_ideogram.R")
-    parser.add_argument("--karyo_size", default="5")
+    parser.add_argument("--karyo_size", default="12")
     parser.add_argument("--karyo_color", default="black")
     args = parser.parse_args()
 
