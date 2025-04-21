@@ -16,7 +16,7 @@ Dependencies:
 
 Usage example:
 ```
-python skynk.py \
+python synk.py \
   --karyotype1 pfas_karyotype.txt \
   --karyotype2 tiliqua_karyotype.txt \
   --busco1 pfas_busco_format.tsv \
@@ -41,7 +41,7 @@ Required inputs:
 
 Optional inputs:
 ```
---cmap             Colormap for chromosome gradient (default: plasma)
+--cmap             Colormap for chromosome gradient (default: plasma; other: viridis, magma)
 --plot             Include this flag to generate an ideogram PNG/SVG with RIdeogram
 --rscript_path     Path to output R script (default: plot_ideogram.R)
 --karyo_size       Label text size (default: 5)
